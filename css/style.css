@@ -1,15 +1,54 @@
 .wrapper {
-  background-color: aqua;
+  background-image: url(../images/gas-burner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* background-color: aliceblue; */
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  height: 100%;
+}
+.main {
+  display: flex;
   color: black;
+  width: 800px;
+  align-self: center;
+  margin-top: 30px;
+  overflow: hidden;
+  flex-flow: column;
+}
+
+.header-section {
+  background-color: aliceblue;
+}
+.top {
+  width: 100%;
+  background-color: blue;
+  margin-top: 30px;
 }
 .item {
-  border: solid 5px;
+  border: solid 5px chartreuse;
+  /* margin-top: 20%; */
+  padding: 10px;
 }
 #gas-unit-display {
   display: none;
 }
 #gas-display {
   display: none;
+}
+#electric-unit-display {
+  display: none;
+}
+#electric-display {
+  display: none;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  margin-bottom: 10px;
+  background-color: #efb106;
 }

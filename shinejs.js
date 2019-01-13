@@ -25,4 +25,10 @@ electricityButton.addEventListener("click", function() {
   console.log("Electricity used :", electricUnitused);
   let billAmount = 100 * 10 + (electricUnitused - 100) * 20;
   console.log("Electric bill amount is:", billAmount);
+  let electricUnitDisplay = document.querySelector("#electric-unit-display");
+  electricUnitDisplay.innerHTML = `The units of electricity used is:${electricUnitused}units`;
+  electricUnitDisplay.style.display = "block";
+  let electricDisplay = document.querySelector("#electric-display");
+  electricDisplay.innerHTML = `Your Electricity bill is £${billAmount}`;
+  electricDisplay.style.display = "block";
 });

@@ -1,11 +1,15 @@
 .wrapper {
   background-color: aqua;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 800px;
-  grid-template-rows: repeat(7, 50px);
+  display: flex;
+  flex-flow: column;
   color: black;
 }
 .item {
   border: solid 5px;
+}
+#gas-unit-display {
+  display: none;
+}
+#gas-display {
+  display: none;
 }

@@ -10,9 +10,9 @@
   justify-content: center;
   height: 100%;
 }
-/* input{
-
-} */
+input:focus {
+  background-color: aqua;
+}
 .main {
   display: flex;
   color: black;

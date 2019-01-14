@@ -12,7 +12,7 @@ gasButton.addEventListener("click", function() {
   gasUnitsDisplay.innerHTML = `The units of gas used is :${gasUnitused}units`;
   gasUnitsDisplay.style.display = "block";
   let gasDisplay = document.querySelector("#gas-display");
-  gasDisplay.innerHTML = `Your gas bill is : £${billAmount}`;
+  gasDisplay.innerHTML = `Your gas bill is : £${billAmount / 100}`;
   console.log("Gas display here:", gasDisplay);
   gasDisplay.style.display = "block";
 });
@@ -29,6 +29,6 @@ electricityButton.addEventListener("click", function() {
   electricUnitDisplay.innerHTML = `The units of electricity used is:${electricUnitused}units`;
   electricUnitDisplay.style.display = "block";
   let electricDisplay = document.querySelector("#electric-display");
-  electricDisplay.innerHTML = `Your Electricity bill is £${billAmount}`;
+  electricDisplay.innerHTML = `Your Electricity bill is £${billAmount / 100}`;
   electricDisplay.style.display = "block";
 });

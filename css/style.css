@@ -1,6 +1,6 @@
 .wrapper {
   background-image: url(../images/gas-burner.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -10,6 +10,9 @@
   justify-content: center;
   height: 100%;
 }
+/* input{
+
+} */
 .main {
   display: flex;
   color: black;
@@ -32,7 +35,11 @@
   border: solid 5px chartreuse;
   /* margin-top: 20%; */
   padding: 10px;
+  background-color: #efb106;
 }
+/* #gas {
+  margin-left: 38px;
+} */
 #gas-unit-display {
   display: none;
 }
@@ -50,5 +57,22 @@
 .item3,
 .item4 {
   margin-bottom: 10px;
-  background-color: #efb106;
+}
+.item3 {
+  /* display: flex; */
+  /* flex-flow: column;
+  align-content: center; */
+}
+.item3-top {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+.item3-bottom {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+.fas {
+  border: 5px solid white;
 }

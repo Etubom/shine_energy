@@ -1,3 +1,33 @@
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+  .top {
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 50px 20px;
+    text-align: center;
+    font-family: "Yatra One", cursive;
+  }
+  .main {
+    display: flex;
+    color: black;
+    margin-top: 10px;
+    overflow: hidden;
+    flex-flow: column;
+  }
+  .item {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #efb106;
+    text-align: center;
+  }
+}
+
 .wrapper {
   background-image: url(../images/gas-burner.jpg);
   background-repeat: repeat;
@@ -44,8 +74,8 @@ button:focus {
   background-color: #efb106;
 }
 /* #gas {
-  margin-left: 38px;
-} */
+    margin-left: 38px;
+  } */
 #gas-unit-display {
   display: none;
 }
@@ -67,7 +97,7 @@ button:focus {
 .item3 {
   /* display: flex; */
   /* flex-flow: column;
-  align-content: center; */
+    align-content: center; */
 }
 .item3-top {
   display: flex;

@@ -13,6 +13,9 @@
 input:focus {
   background-color: aqua;
 }
+button:focus {
+  border-color: black;
+}
 .main {
   display: flex;
   color: black;

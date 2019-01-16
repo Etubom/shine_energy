@@ -27,89 +27,88 @@
     text-align: center;
   }
 }
-@media (min-width: 1281px) {
-  .wrapper {
-    background-image: url(../images/gas-burner.jpg);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    /* background-color: aliceblue; */
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    height: 100%;
-  }
-  input:focus {
-    background-color: aqua;
-  }
-  button:focus {
-    border-color: black;
-  }
-  .main {
-    display: flex;
-    color: black;
-    width: 800px;
-    align-self: center;
-    margin-top: 10px;
-    overflow: hidden;
-    flex-flow: column;
-  }
 
-  .header-section {
-    background-color: aliceblue;
-  }
-  .top {
-    width: 100%;
-    background-color: aliceblue;
-    /* margin-top: 30px; */
-    border-radius: 50px 20px;
-    text-align: center;
-    font-family: "Yatra One", cursive;
-  }
-  .item {
-    border: solid 1px black;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #efb106;
-  }
-  /* #gas {
+.wrapper {
+  background-image: url(../images/gas-burner.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+}
+input:focus {
+  background-color: aqua;
+}
+button:focus {
+  border-color: black;
+}
+.main {
+  display: flex;
+  color: black;
+  width: 800px;
+  align-self: center;
+  margin-top: 10px;
+  overflow: hidden;
+  flex-flow: column;
+}
+
+.header-section {
+  background-color: aliceblue;
+}
+.top {
+  width: 100%;
+  background-color: aliceblue;
+  /* margin-top: 30px; */
+  border-radius: 50px 20px;
+  text-align: center;
+  font-family: "Yatra One", cursive;
+}
+.item {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #efb106;
+}
+/* #gas {
       margin-left: 38px;
     } */
-  #gas-unit-display {
-    display: none;
-  }
-  #gas-display {
-    display: none;
-  }
-  #electric-unit-display {
-    display: none;
-  }
-  #electric-display {
-    display: none;
-  }
-  .item1,
-  .item2,
-  .item3,
-  .item4 {
-    margin-bottom: 10px;
-  }
-  .item3 {
-    /* display: flex; */
-    /* flex-flow: column;
+#gas-unit-display {
+  display: none;
+}
+#gas-display {
+  display: none;
+}
+#electric-unit-display {
+  display: none;
+}
+#electric-display {
+  display: none;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  margin-bottom: 10px;
+}
+.item3 {
+  /* display: flex; */
+  /* flex-flow: column;
       align-content: center; */
-  }
-  .item3-top {
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-  }
-  .item3-bottom {
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-  }
-  .fas {
-    border: 5px solid white;
-  }
+}
+.item3-top {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+.item3-bottom {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+.fas {
+  border: 5px solid white;
 }
